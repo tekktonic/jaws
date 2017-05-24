@@ -248,7 +248,6 @@ var jaws = (function(jaws) {
   jaws.useCrispScaling = function() {
     jaws.context.imageSmoothingEnabled = false;
     jaws.context.webkitImageSmoothingEnabled = false;
-    jaws.context.mozImageSmoothingEnabled = false;
   };
 
   /**
@@ -257,7 +256,6 @@ var jaws = (function(jaws) {
   jaws.useSmoothScaling = function() {
     jaws.context.imageSmoothingEnabled = true;
     jaws.context.webkitImageSmoothingEnabled = true;
-    jaws.context.mozImageSmoothingEnabled = true;
   };
 
   /**
